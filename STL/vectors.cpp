@@ -1,3 +1,8 @@
+/* A vector is a sequence container
+Sequence containers are STL containers that store 
+elements in a linear order and allow access based on position
+stores elements in contiguous memory and allows dynamic resizing.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
