@@ -19,6 +19,14 @@ int gcd(int a, int b)
     }
     return a;
 }
+int gcdRecurssion(int a , int b)
+{
+    if(b == 0)
+    {
+        return a;
+    }
+    return gcdRecurssion(b , a%b);
+}
 
 int main()
 {
@@ -26,5 +34,6 @@ int main()
     cout<< "Enter two numbers : " ;
     cin >> a >>b ;
     cout << "GCD of " << a << " and " << b << " is " << gcd(a, b) << endl;
+     cout << "GCD of " << a << " and " << b << " using recursion method is " << gcdRecurssion(a, b) << endl;
     return 0;
 }
