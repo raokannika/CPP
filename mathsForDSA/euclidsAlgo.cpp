@@ -19,6 +19,7 @@ int gcd(int a, int b)
     }
     return a;
 }
+// both methons are same but the second one is using recursion and first one is using iteration.
 int gcdRecurssion(int a , int b)
 {
     if(b == 0)
